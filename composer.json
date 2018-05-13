@@ -1,0 +1,32 @@
+{
+    "name": "cyclosarin/aliyun-sms",
+    "description": "AliYun SMS Service SDK",
+    "keywords": [
+        "alicloud",
+        "aliyun",
+        "message",
+        "sms",
+        "aliyun-sms",
+        "short message service"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/cyclosarin/php-message/issues",
+        "source": "https://github.com/cyclosarin/php-message"
+    },
+    "authors": [
+        {
+            "name": "cyclosarin",
+            "email": "cyclosarin.duji@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cyclosarin\\": "lib/"
+        }
+    },
+    "require": {
+        "php": "^7.0"
+    }
+}
